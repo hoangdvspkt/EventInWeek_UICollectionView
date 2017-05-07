@@ -1,6 +1,6 @@
 //
 //  DayEventCollectionViewController.swift
-//  EventManagerUICollectionView
+//  EventInWeek_UICollectionView
 //
 //  Created by hoangdv on 5/2/17.
 //  Copyright © 2017 hoangdv. All rights reserved.
