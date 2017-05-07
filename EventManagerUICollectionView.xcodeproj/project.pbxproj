@@ -111,15 +111,15 @@
 		276601CC1EBC26540084F480 /* EventManagerUICollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				276602051EBCC6D50084F480 /* EventCell.swift */,
 				276602071EBCC7400084F480 /* HeaderView.swift */,
-				276601CD1EBC26540084F480 /* AppDelegate.swift */,
+				276602051EBCC6D50084F480 /* EventCell.swift */,
 				276601FC1EBC291D0084F480 /* Model */,
 				276602041EBCB99F0084F480 /* Controllers */,
 				276601D11EBC26540084F480 /* Main.storyboard */,
 				276601D41EBC26540084F480 /* Assets.xcassets */,
 				276601D61EBC26540084F480 /* LaunchScreen.storyboard */,
 				276601D91EBC26540084F480 /* Info.plist */,
+				276601CD1EBC26540084F480 /* AppDelegate.swift */,
 			);
 			path = EventManagerUICollectionView;
 			sourceTree = "<group>";
