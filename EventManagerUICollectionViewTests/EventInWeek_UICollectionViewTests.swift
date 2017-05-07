@@ -2,14 +2,14 @@
 //  EventManagerUICollectionViewTests.swift
 //  EventManagerUICollectionViewTests
 //
-//  Created by Thiện Huỳnh on 5/5/17.
-//  Copyright © 2017 Thiện Huỳnh. All rights reserved.
+//  Created by hoangdv on 5/2/17.
+//  Copyright © 2017 hoangdv. All rights reserved.
 //
 
 import XCTest
-@testable import EventManagerUICollectionView
+@testable import EventInWeek_UICollectionView
 
-class EventManagerUICollectionViewTests: XCTestCase {
+class EventInWeek_UICollectionViewTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

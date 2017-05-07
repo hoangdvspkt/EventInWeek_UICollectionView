@@ -15,18 +15,27 @@ class DayEventCollectionViewController: UICollectionViewController {
     // MARK: - Data Source
     var eventAdapter = EventAdapter()
     
+    override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderView", for: indexPath) as! HeaderView
+        let dayEvent = eventAdapter.dayEvents[indexPath.section]
+        headerView.didSet(dayEvent: dayEvent)
+        return headerView
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             
             switch identifier {
-            case "ShowDetail":
                 
+            //Chi tiết Event
+            case "ShowDetail":
                 let detailEvent = segue.destination as! DetailEventViewController
                 if let indexPath = self.collectionView!.indexPath(for: sender as! EventCell) {
                     let dayEvent = eventAdapter.dayEvents[indexPath.section]
                     let event = dayEvent.events[indexPath.row]
                     detailEvent.setAdapter(dayEvent: dayEvent, event: event)
                 }
+            //Thêm Event
             case "AddEvent":
                 let addEvent = segue.destination as! AddEventViewController
                 addEvent.setAdapter(eventAdapter: eventAdapter)
@@ -34,13 +43,6 @@ class DayEventCollectionViewController: UICollectionViewController {
                 break
             }
         }
-    }
-    
-    override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HeaderView", for: indexPath) as! HeaderView
-        let dayEvent = eventAdapter.dayEvents[indexPath.section]
-        headerView.didSet(dayEvent: dayEvent)
-        return headerView
     }
     
     override func viewDidLoad() {
@@ -59,13 +61,13 @@ class DayEventCollectionViewController: UICollectionViewController {
     // MARK: UICollectionViewDataSource
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        //return the number of sections
         return eventAdapter.dayEvents.count
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
+        //return the number of items
         let dayEvent = eventAdapter.dayEvents[section]
         return dayEvent.events.count
     }

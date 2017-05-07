@@ -11,8 +11,8 @@
 		276601D31EBC26540084F480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276601D11EBC26540084F480 /* Main.storyboard */; };
 		276601D51EBC26540084F480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276601D41EBC26540084F480 /* Assets.xcassets */; };
 		276601D81EBC26540084F480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276601D61EBC26540084F480 /* LaunchScreen.storyboard */; };
-		276601E31EBC26540084F480 /* EventManagerUICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276601E21EBC26540084F480 /* EventManagerUICollectionViewTests.swift */; };
-		276601EE1EBC26540084F480 /* EventManagerUICollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276601ED1EBC26540084F480 /* EventManagerUICollectionViewUITests.swift */; };
+		276601E31EBC26540084F480 /* EventInWeek_UICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276601E21EBC26540084F480 /* EventInWeek_UICollectionViewTests.swift */; };
+		276601EE1EBC26540084F480 /* EventInWeek_UICollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276601ED1EBC26540084F480 /* EventInWeek_UICollectionViewUITests.swift */; };
 		276602001EBC294A0084F480 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276601FF1EBC294A0084F480 /* Event.swift */; };
 		276602021EBC295E0084F480 /* DayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276602011EBC295E0084F480 /* DayEvent.swift */; };
 		276602061EBCC6D50084F480 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276602051EBCC6D50084F480 /* EventCell.swift */; };
@@ -41,17 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		276601CA1EBC26540084F480 /* EventManagerUICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventManagerUICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276601CA1EBC26540084F480 /* EventInWeek_UICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventInWeek_UICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276601CD1EBC26540084F480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		276601D21EBC26540084F480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		276601D41EBC26540084F480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276601D71EBC26540084F480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		276601D91EBC26540084F480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		276601DE1EBC26540084F480 /* EventManagerUICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventManagerUICollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		276601E21EBC26540084F480 /* EventManagerUICollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagerUICollectionViewTests.swift; sourceTree = "<group>"; };
+		276601DE1EBC26540084F480 /* EventInWeek_UICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventInWeek_UICollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276601E21EBC26540084F480 /* EventInWeek_UICollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInWeek_UICollectionViewTests.swift; sourceTree = "<group>"; };
 		276601E41EBC26540084F480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		276601E91EBC26540084F480 /* EventManagerUICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventManagerUICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		276601ED1EBC26540084F480 /* EventManagerUICollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagerUICollectionViewUITests.swift; sourceTree = "<group>"; };
+		276601E91EBC26540084F480 /* EventInWeek_UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventInWeek_UICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276601ED1EBC26540084F480 /* EventInWeek_UICollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInWeek_UICollectionViewUITests.swift; sourceTree = "<group>"; };
 		276601EF1EBC26540084F480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		276601FF1EBC294A0084F480 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		276602011EBC295E0084F480 /* DayEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayEvent.swift; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		276601C11EBC26540084F480 = {
 			isa = PBXGroup;
 			children = (
-				276601CC1EBC26540084F480 /* EventManagerUICollectionView */,
-				276601E11EBC26540084F480 /* EventManagerUICollectionViewTests */,
-				276601EC1EBC26540084F480 /* EventManagerUICollectionViewUITests */,
+				276601CC1EBC26540084F480 /* EventInWeek_UICollectionView */,
+				276601E11EBC26540084F480 /* EventInWeek_UICollectionViewTests */,
+				276601EC1EBC26540084F480 /* EventInWeek_UICollectionViewTests */,
 				276601CB1EBC26540084F480 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,14 +101,14 @@
 		276601CB1EBC26540084F480 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				276601CA1EBC26540084F480 /* EventManagerUICollectionView.app */,
-				276601DE1EBC26540084F480 /* EventManagerUICollectionViewTests.xctest */,
-				276601E91EBC26540084F480 /* EventManagerUICollectionViewUITests.xctest */,
+				276601CA1EBC26540084F480 /* EventInWeek_UICollectionView.app */,
+				276601DE1EBC26540084F480 /* EventInWeek_UICollectionViewTests.xctest */,
+				276601E91EBC26540084F480 /* EventInWeek_UICollectionViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		276601CC1EBC26540084F480 /* EventManagerUICollectionView */ = {
+		276601CC1EBC26540084F480 /* EventInWeek_UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				276602071EBCC7400084F480 /* HeaderView.swift */,
@@ -121,24 +121,27 @@
 				276601D91EBC26540084F480 /* Info.plist */,
 				276601CD1EBC26540084F480 /* AppDelegate.swift */,
 			);
+			name = EventInWeek_UICollectionView;
 			path = EventManagerUICollectionView;
 			sourceTree = "<group>";
 		};
-		276601E11EBC26540084F480 /* EventManagerUICollectionViewTests */ = {
+		276601E11EBC26540084F480 /* EventInWeek_UICollectionViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				276601E21EBC26540084F480 /* EventManagerUICollectionViewTests.swift */,
+				276601E21EBC26540084F480 /* EventInWeek_UICollectionViewTests.swift */,
 				276601E41EBC26540084F480 /* Info.plist */,
 			);
+			name = EventInWeek_UICollectionViewTests;
 			path = EventManagerUICollectionViewTests;
 			sourceTree = "<group>";
 		};
-		276601EC1EBC26540084F480 /* EventManagerUICollectionViewUITests */ = {
+		276601EC1EBC26540084F480 /* EventInWeek_UICollectionViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				276601ED1EBC26540084F480 /* EventManagerUICollectionViewUITests.swift */,
+				276601ED1EBC26540084F480 /* EventInWeek_UICollectionViewUITests.swift */,
 				276601EF1EBC26540084F480 /* Info.plist */,
 			);
+			name = EventInWeek_UICollectionViewTests;
 			path = EventManagerUICollectionViewUITests;
 			sourceTree = "<group>";
 		};
@@ -165,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		276601C91EBC26540084F480 /* EventManagerUICollectionView */ = {
+		276601C91EBC26540084F480 /* EventInWeek_UICollectionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 276601F21EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventManagerUICollectionView" */;
+			buildConfigurationList = 276601F21EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventInWeek_UICollectionView" */;
 			buildPhases = (
 				276601C61EBC26540084F480 /* Sources */,
 				276601C71EBC26540084F480 /* Frameworks */,
@@ -177,14 +180,14 @@
 			);
 			dependencies = (
 			);
-			name = EventManagerUICollectionView;
+			name = EventInWeek_UICollectionView;
 			productName = EventManagerUICollectionView;
-			productReference = 276601CA1EBC26540084F480 /* EventManagerUICollectionView.app */;
+			productReference = 276601CA1EBC26540084F480 /* EventInWeek_UICollectionView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		276601DD1EBC26540084F480 /* EventManagerUICollectionViewTests */ = {
+		276601DD1EBC26540084F480 /* EventInWeek_UICollectionViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 276601F51EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventManagerUICollectionViewTests" */;
+			buildConfigurationList = 276601F51EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventInWeek_UICollectionViewTests" */;
 			buildPhases = (
 				276601DA1EBC26540084F480 /* Sources */,
 				276601DB1EBC26540084F480 /* Frameworks */,
@@ -195,14 +198,14 @@
 			dependencies = (
 				276601E01EBC26540084F480 /* PBXTargetDependency */,
 			);
-			name = EventManagerUICollectionViewTests;
+			name = EventInWeek_UICollectionViewTests;
 			productName = EventManagerUICollectionViewTests;
-			productReference = 276601DE1EBC26540084F480 /* EventManagerUICollectionViewTests.xctest */;
+			productReference = 276601DE1EBC26540084F480 /* EventInWeek_UICollectionViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		276601E81EBC26540084F480 /* EventManagerUICollectionViewUITests */ = {
+		276601E81EBC26540084F480 /* EventInWeek_UICollectionViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 276601F81EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventManagerUICollectionViewUITests" */;
+			buildConfigurationList = 276601F81EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventInWeek_UICollectionViewUITests" */;
 			buildPhases = (
 				276601E51EBC26540084F480 /* Sources */,
 				276601E61EBC26540084F480 /* Frameworks */,
@@ -213,9 +216,9 @@
 			dependencies = (
 				276601EB1EBC26540084F480 /* PBXTargetDependency */,
 			);
-			name = EventManagerUICollectionViewUITests;
+			name = EventInWeek_UICollectionViewUITests;
 			productName = EventManagerUICollectionViewUITests;
-			productReference = 276601E91EBC26540084F480 /* EventManagerUICollectionViewUITests.xctest */;
+			productReference = 276601E91EBC26540084F480 /* EventInWeek_UICollectionViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 276601C51EBC26540084F480 /* Build configuration list for PBXProject "EventManagerUICollectionView" */;
+			buildConfigurationList = 276601C51EBC26540084F480 /* Build configuration list for PBXProject "EventInWeek_UICollectionView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -257,9 +260,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				276601C91EBC26540084F480 /* EventManagerUICollectionView */,
-				276601DD1EBC26540084F480 /* EventManagerUICollectionViewTests */,
-				276601E81EBC26540084F480 /* EventManagerUICollectionViewUITests */,
+				276601C91EBC26540084F480 /* EventInWeek_UICollectionView */,
+				276601DD1EBC26540084F480 /* EventInWeek_UICollectionViewTests */,
+				276601E81EBC26540084F480 /* EventInWeek_UICollectionViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276601E31EBC26540084F480 /* EventManagerUICollectionViewTests.swift in Sources */,
+				276601E31EBC26540084F480 /* EventInWeek_UICollectionViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276601EE1EBC26540084F480 /* EventManagerUICollectionViewUITests.swift in Sources */,
+				276601EE1EBC26540084F480 /* EventInWeek_UICollectionViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		276601E01EBC26540084F480 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 276601C91EBC26540084F480 /* EventManagerUICollectionView */;
+			target = 276601C91EBC26540084F480 /* EventInWeek_UICollectionView */;
 			targetProxy = 276601DF1EBC26540084F480 /* PBXContainerItemProxy */;
 		};
 		276601EB1EBC26540084F480 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 276601C91EBC26540084F480 /* EventManagerUICollectionView */;
+			target = 276601C91EBC26540084F480 /* EventInWeek_UICollectionView */;
 			targetProxy = 276601EA1EBC26540084F480 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.huynhthien.EventManagerUICollectionViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventManagerUICollectionView.app/EventManagerUICollectionView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventInWeek_UICollectionView.app/EventInWeek_UICollectionView";
 			};
 			name = Debug;
 		};
@@ -502,7 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.huynhthien.EventManagerUICollectionViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventManagerUICollectionView.app/EventManagerUICollectionView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EventInWeek_UICollectionView.app/EventInWeek_UICollectionView";
 			};
 			name = Release;
 		};
@@ -535,7 +538,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		276601C51EBC26540084F480 /* Build configuration list for PBXProject "EventManagerUICollectionView" */ = {
+		276601C51EBC26540084F480 /* Build configuration list for PBXProject "EventInWeek_UICollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				276601F01EBC26540084F480 /* Debug */,
@@ -544,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		276601F21EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventManagerUICollectionView" */ = {
+		276601F21EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventInWeek_UICollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				276601F31EBC26540084F480 /* Debug */,
@@ -553,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		276601F51EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventManagerUICollectionViewTests" */ = {
+		276601F51EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventInWeek_UICollectionViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				276601F61EBC26540084F480 /* Debug */,
@@ -562,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		276601F81EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventManagerUICollectionViewUITests" */ = {
+		276601F81EBC26540084F480 /* Build configuration list for PBXNativeTarget "EventInWeek_UICollectionViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				276601F91EBC26540084F480 /* Debug */,

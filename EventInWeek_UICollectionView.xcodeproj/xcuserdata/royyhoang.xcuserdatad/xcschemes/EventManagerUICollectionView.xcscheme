@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "276601C91EBC26540084F480"
-               BuildableName = "EventManagerUICollectionView.app"
-               BlueprintName = "EventManagerUICollectionView"
-               ReferencedContainer = "container:EventManagerUICollectionView.xcodeproj">
+               BuildableName = "EventInWeek_UICollectionView.app"
+               BlueprintName = "EventInWeek_UICollectionView"
+               ReferencedContainer = "container:EventInWeek_UICollectionView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "276601DD1EBC26540084F480"
-               BuildableName = "EventManagerUICollectionViewTests.xctest"
-               BlueprintName = "EventManagerUICollectionViewTests"
-               ReferencedContainer = "container:EventManagerUICollectionView.xcodeproj">
+               BuildableName = "EventInWeek_UICollectionViewTests.xctest"
+               BlueprintName = "EventInWeek_UICollectionViewTests"
+               ReferencedContainer = "container:EventInWeek_UICollectionView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "276601E81EBC26540084F480"
-               BuildableName = "EventManagerUICollectionViewUITests.xctest"
-               BlueprintName = "EventManagerUICollectionViewUITests"
-               ReferencedContainer = "container:EventManagerUICollectionView.xcodeproj">
+               BuildableName = "EventInWeek_UICollectionViewUITests.xctest"
+               BlueprintName = "EventInWeek_UICollectionViewUITests"
+               ReferencedContainer = "container:EventInWeek_UICollectionView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "276601C91EBC26540084F480"
-            BuildableName = "EventManagerUICollectionView.app"
-            BlueprintName = "EventManagerUICollectionView"
-            ReferencedContainer = "container:EventManagerUICollectionView.xcodeproj">
+            BuildableName = "EventInWeek_UICollectionView.app"
+            BlueprintName = "EventInWeek_UICollectionView"
+            ReferencedContainer = "container:EventInWeek_UICollectionView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "276601C91EBC26540084F480"
-            BuildableName = "EventManagerUICollectionView.app"
-            BlueprintName = "EventManagerUICollectionView"
-            ReferencedContainer = "container:EventManagerUICollectionView.xcodeproj">
+            BuildableName = "EventInWeek_UICollectionView.app"
+            BlueprintName = "EventInWeek_UICollectionView"
+            ReferencedContainer = "container:EventInWeek_UICollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "276601C91EBC26540084F480"
-            BuildableName = "EventManagerUICollectionView.app"
-            BlueprintName = "EventManagerUICollectionView"
-            ReferencedContainer = "container:EventManagerUICollectionView.xcodeproj">
+            BuildableName = "EventInWeek_UICollectionView.app"
+            BlueprintName = "EventInWeek_UICollectionView"
+            ReferencedContainer = "container:EventInWeek_UICollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -106,6 +106,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "EventInWeek_UICollectionView"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
